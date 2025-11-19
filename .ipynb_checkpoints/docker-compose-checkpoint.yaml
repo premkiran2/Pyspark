@@ -1,0 +1,8 @@
+version: "3"
+services:
+  pyspark:
+    image: "jupyter/all-spark-notebook"
+    volumes:
+      - E:\Saint Louis\21\Big Data Analytics\Topic\spark:/home/jovyan/work
+    ports:
+      - 8888:8888
